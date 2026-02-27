@@ -1,0 +1,36 @@
+{
+  "name": "env-sync",
+  "version": "1.0.0",
+  "description": "Smart environment variable management — find drift, missing vars, and invalid values across your project",
+  "type": "module",
+  "bin": {
+    "env-sync": "./bin/sync.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node bin/sync.js",
+    "lint": "node --check src/*.js bin/sync.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "environment",
+    "variables",
+    "cli",
+    "devtools",
+    "developer-experience"
+  ],
+  "author": "NickCirv <nick@cirvgreen.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/env-sync"
+  }
+}
