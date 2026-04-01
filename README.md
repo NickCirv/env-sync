@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # env-sync
 
 Catch environment variable drift before it catches you — missing vars, type errors, and secrets lurking in your code.
